@@ -46,7 +46,9 @@ chmod+x clash
 
 8. 开心上网
 
-   重新打开一个terminal（旧的也不要关掉），输入proxychains curl www.google.com，如果terminal里出现网站的html文件，则说明成功了！之后每一条命令之前输入proxychains，就会自动走梯子的通道！网速起飞！
+   重新打开一个terminal（旧的也不要关掉），输入proxychains curl www.google.com
+
+   如果terminal里出现网站的html文件，则说明成功了！之后每一条命令之前输入proxychains，就会自动走梯子的通道！网速起飞！
 
 9. 绕过的弯路
 
