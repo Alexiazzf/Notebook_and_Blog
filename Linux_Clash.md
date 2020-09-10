@@ -17,7 +17,7 @@ sudo apt install proxychains
 3. 创建你想要的存放文件的目录，解压gz包，我存放的路径是/root/clash，可以将解压文件重命名为clash便于阅读
 
 ```
-gunzip /clash-linux-amd64-v0.18.0.gz
+gunzip /clash-linux-amd64-v1.1.0.gz
 ```
 
 4. 赋予文件执行权限
