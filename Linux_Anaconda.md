@@ -1,6 +1,6 @@
 # Conda转清华镜像
 
-conda自带的链接下载东西太慢了（当然，如果使用梯子之后也会快到飞起，详见另一篇Linux_Clash)，大多数人都会换成清华的源。但网上方法鱼目混杂，前几天还因为弄这个差点把服务器搞坏。研究了半天之后，终于搞定了！我的方法如下：
+Conda自带的链接下载东西太慢了（当然，如果使用梯子之后也会快到飞起，详见[Linux_Clash.md](Linux_Clash.md))，大多数人都会换成清华的源。但网上方法鱼龙混杂，前几天还因为弄这个差点把服务器搞坏。研究了半天之后，终于搞定了！我的方法如下：
 
 - 命令输入：
 
@@ -21,17 +21,20 @@ custom_channels:
 #  menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 #  simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
-
 ```
 
 - 命令输入：
 
+```
 conda config --set show_channel_urls yes
+```
 
 - 有时候国内镜像源无法连接，需要恢复原来的源：
 
+```
 conda config --remove-key channels
+```
 
 
 
-ref: https://blog.csdn.net/sunmingyang1987/article/details/102851249
+cf. https://blog.csdn.net/sunmingyang1987/article/details/102851249
