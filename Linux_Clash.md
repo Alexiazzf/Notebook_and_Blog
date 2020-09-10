@@ -32,7 +32,7 @@ chmod+x clash
 ./clash
 ```
 
-​		第一次启动会在/home/(用户名)/.config/目录下生成Config.yaml 和Country.mmdb两个文件。生成的Config.yaml文件为空，需要后续填写自己的代理信息。
+​		第一次启动会在/home/(用户名)/.config/clash/目录下生成Config.yaml 和Country.mmdb两个文件。生成的Config.yaml文件为空，需要后续填写自己的代理信息。
 
 6. 配置文件
 
