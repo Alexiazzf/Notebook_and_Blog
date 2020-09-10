@@ -1,6 +1,11 @@
 # Conda转清华镜像
 
 - 命令输入：
+
+```
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+```
+
 - 把 .condarc 里面的东西替换成:
 
 ```
